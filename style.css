@@ -4,252 +4,78 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background:#EEE9E6;
-    font-family:sans-serif;
 }
 
-.alan{
-    width: 300px;
-    height: 973px;
-    border-right:1px solid 	#DCDCDC;
-}
-
-.menu{
-    width: 250px;
-    height: 910px;
-    padding: 10px;
-    position: relative;
-    top: 30px;
-    left: 25px;
-}
-
-.panel{
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.panelo{
-    width: 250px;
-    height: 810px;
-    text-align: center;
-    position: relative;
-    top: 50px;
-    right: 12px;
-    color:	#696969;
-}
-.home{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.home span{
-    position: relative;
-    right: 30px;
-}
-.home i,.home span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-.Statics{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.Statics span{
-    position: relative;
-    right: 42px;
-}
-
-.Statics i,.Statics span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-
-.tasklist{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.tasklist span{
-    position: relative;
-    right: 15px;
-}
-
-.tasklist i , .tasklist span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-.tasklist i{
-    left: 8px;
-}
-
-.tasklist p{
-    width: 30px;
-    height: 20px;
-    background-color: aqua;
-    color:grey;
-    position: relative;
-    top: 15px;
-    right: 10px;
-    border: 1px solid aqua;
-    border-radius: 5px;
-    font-size: 15px;
-}
-
-.services{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.services span{
-    position: relative;
-    right: 35px;
-}
-
-.services i, .services span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-
-.bell{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.bell span{
-    position: relative;
-    right: 25px;
-}
-.bell i,.bell span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-
-.hr{
-    width: 180px;
-    height: 50px;
-    margin: auto;
-    position: relative;
-    top: 50px;
-    left: 10px;
-}
-
-.calls{
-    width: 200px;
-    height: 50px;
-    border: 1px solid yellow;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.calls span{
-    position: relative;
-    right: 40px;
-}
-
-.calls i,.calls span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-
-.logout{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    top: 20px;
-}
-
-.logout span{
-    position: relative;
-    right: 40px;
-}
-
-.logout i,.logout span{
-    flex: 1;
-    position: relative;
-    top: 15px;
-}
-
-.resim{
-    position: relative;
-    top: 250px;
-}
-
-.resim img{
-    border-radius: 50%;
-}
-
-.resim h1{
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-}
-
-.resim h3{
-    font-size:15px;
-}
-
-.menu2{
-    width: 700px;
-    height: 973px;
-    border: 1px solid grey;
-    position: relative;
-    top: -973px;
-    left: 300px;
-    text-align: center;
-}
-
-.menu2 .baslik{
-    width: 650px;
-    height: 20px;
-    margin: auto;
-    position: relative;
-    top: 45px;
-    letter-spacing: 1px;
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(weather.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .app{
-    width: 650px;
-    height: 400px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0,0,0.5);
+    height: 100vh;
+}
+
+.header{
+    padding: 45px 18px 27px 18px;
     position: relative;
-    top: 100px;
-    background: white;
-    border-radius: 15px;
-    background-image:url(resim/havadurumu.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: 200px;
+}
+
+.header h1{
+    font-size: 60px;
+    color: wheat;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.header input{
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid wheat;
+    text-align: center;
+    font-size: 20px;
+    color: bisque;
+}
+.content{
+    position: relative;
+    top: 200px;
+}
+
+.city{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.temp{
+    font-size: 115px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+
+.desc{
+    font-size: 30px;
+    font-style: initial;
+    text-shadow:1px 3px rgba(0, 0, 0, 0.9);
+    margin-bottom: 15px;
+}
+
+.minmax{
+    font-size: 27px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+
 }
