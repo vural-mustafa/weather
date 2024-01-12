@@ -28,7 +28,7 @@ body{
 .header{
     padding: 45px 18px 27px 18px;
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 .header h1{
@@ -50,7 +50,7 @@ body{
 }
 .content{
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 .city{
